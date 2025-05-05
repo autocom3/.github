@@ -1,74 +1,38 @@
-#  Guia de Boas Práticas para Desenvolvedores na Autocom3
-
-## 💻 Código Limpo
-
-### Princípios Fundamentais
-
-- **Comentários úteis e objetivos**: Comentários devem explicar o *porquê*, não o *como* (que deve estar claro no código).
-- **Consistência com os padrões do projeto**: Siga convenções já adotadas, como nomes, estrutura de pastas e formatação.
-- **Nomes claros e significativos**: Use nomes descritivos que expressem a intenção. Evite abreviações confusas.
-- **Funções pequenas**: Cada função deve executar apenas uma tarefa.
-- **Evite repetição e seguir o padrão DRY (Don't Repeat Yourself)**: Centralize lógica comum em funções reutilizáveis e evite duplicações.
-- **Tratamento de erros adequado**: Trate exceções de forma clara. Evite blocos `try/catch` vazios ou sem logs úteis.
-
-
-> **Dica**: Leia o código como se fosse um texto. Se for difícil de explicar, provavelmente precisa ser simplificado.
-
-
-## 🌿 Controle de Versão
-
-### Commits Padronizados (Conventional Commits)
-
-Adote o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/) para manter o histórico claro e organizado.
-
-**Prefixos comuns:**
-
-- `feat`: Nova funcionalidade
-- `fix`: Correção de bug
-- `docs`: Alterações na documentação
-- `style`: Formatação (espaços, vírgulas, identação)
-- `refactor`: Refatoração (sem alterar comportamento)
-- `test`: Adição ou alteração de testes
-- `chore`: Tarefas internas (build, configs, etc.)
-
-**Boas práticas:**
-
-- Commits pequenos e frequentes
-- Mensagens claras, no tempo presente e modo imperativo  
-  Ex: `adiciona autenticação por token`
-
-**Exemplos:**
-
-| ✅ Bom | ❌ Ruim |
-|--------|--------|
-| `feat: adiciona função de login` | `adicionei umas coisas` |
-| `fix: corrige bug na validação` | `correção` |
-| `refactor: refatora módulo de pagamento` | `mudanças` |
+<div align="center">
+<img src="https://autocom3adm.com.br/Imagens/autocom.svg" alt="Logo da empresa" width="500"/>
+</div>
 
 ---
 
-### Fluxo de Trabalho
+##  Quem Somos
 
-1. Atualize sua branch antes de começar
-2. Crie uma branch por tarefa
-3. Teste antes de abrir PR
-4. Solicite revisão de código
+Somos uma empresa comprometida com a **excelência**, **inovação** e entrega de **valor real** para nossos clientes. Nosso trabalho é guiado por princípios de ética, colaboração e melhoria contínua.
 
+##  Nossos Valores
 
-## 📝 Documentação
+| 💡 **Inovação** | 🤝 **Comprometimento** | 👥 **Colaboração** | 🔍 **Transparência** |
+|:-------------:|:---------------------:|:------------------:|:--------------------:|
+| Buscamos constantemente soluções criativas e tecnológicas | Atuamos com responsabilidade e foco em resultados | Acreditamos no trabalho em equipe como base para o sucesso | Mantemos uma comunicação clara e honesta em todos os níveis |
 
-### Código Autodocumentado
+## 👨‍💻 Nosso Time
 
-- Use nomes descritivos
-- Extraia código complexo para funções com nomes claros
-- Adicione comentários apenas quando necessário
+Contamos com um time de desenvolvimento **altamente qualificado**, **multidisciplinar** e **apaixonado** por tecnologia.
 
-### Documentação de Projeto
+### Nossa Abordagem:
 
-- README com instruções claras
-- Exemplos de uso
-- Requisitos e dependências
-- Como contribuir 
+- **Metodologias ágeis** para desenvolvimento eficiente
+- **Entrega contínua** de valor aos clientes
+- **Qualidade de código** como prioridade
+- **Proximidade com o negócio** para soluções alinhadas
+
 ---
 
->  **Lembre-se**: Boas práticas evoluem com o tempo. O importante é estar aberto a melhorias contínuas.
+## 📘 Padrões de Desenvolvimento
+
+Para garantir a **qualidade**, **manutenibilidade** e **escalabilidade** de nossos projetos, seguimos um conjunto de boas práticas e padrões de desenvolvimento.
+
+<div align="center">
+  <a href="./padroes.md" style="display: inline-block; padding: 10px 20px; background-color: #6b46c1; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 20px 0;">
+    Consulte Nossos Padrões de Desenvolvimento
+  </a>
+</div>
