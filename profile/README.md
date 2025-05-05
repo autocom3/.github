@@ -14,25 +14,27 @@ Somos uma empresa comprometida com a **excelência**, **inovação** e entrega d
 |:-------------:|:---------------------:|:------------------:|:--------------------:|
 | Buscamos constantemente soluções criativas e tecnológicas | Atuamos com responsabilidade e foco em resultados | Acreditamos no trabalho em equipe como base para o sucesso | Mantemos uma comunicação clara e honesta em todos os níveis |
 
-## 👨‍💻 Nosso Time
-
-Contamos com um time de desenvolvimento **altamente qualificado**, **multidisciplinar** e **apaixonado** por tecnologia.
-
-### Nossa Abordagem:
-
-- **Metodologias ágeis** para desenvolvimento eficiente
-- **Entrega contínua** de valor aos clientes
-- **Qualidade de código** como prioridade
-- **Proximidade com o negócio** para soluções alinhadas
-
----
-
-## 📘 Padrões de Desenvolvimento
+##  Padrões de Desenvolvimento
 
 Para garantir a **qualidade**, **manutenibilidade** e **escalabilidade** de nossos projetos, seguimos um conjunto de boas práticas e padrões de desenvolvimento.
 
-<div align="center">
-  <a href="./padroes.md" style="display: inline-block; padding: 10px 20px; background-color: #6b46c1; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 20px 0;">
-    Consulte Nossos Padrões de Desenvolvimento
-  </a>
-</div>
+<table align="center" style="border-collapse: separate; border-spacing: 0; width: 80%; margin: 20px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+  <tr>
+    <td style="background-color: #6b46c1; padding: 15px; text-align: center;">
+      <a href="./padroes.md" style="color: white; text-decoration: none; font-weight: bold; font-size: 18px; display: block;">
+        <span style="display: inline-block; vertical-align: middle; margin-right: 10px;">
+        Guia de Boas Práticas para Desenvolvedores na Autocom3
+        <span style="display: inline-block; vertical-align: middle; margin-left: 10px;">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color: #f3f0ff; padding: 12px; text-align: center; color: #4a5568; font-style: italic;">
+      Documentação completa sobre convenções de código, arquitetura e fluxo de trabalho
+    </td>
+  </tr>
+</table>
+
+> **Nosso compromisso com a excelência técnica se reflete em cada linha de código que escrevemos.**
+
+---
