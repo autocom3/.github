@@ -1,74 +1,71 @@
-#  Guia de Boas Práticas para Desenvolvedores na Autocom3
+# 🚀 Guia de Boas Práticas da Autocom3
 
-## 💻 Código Limpo
+Este documento é a fonte de verdade para os padrões de desenvolvimento na Autocom3, garantindo que nossos projetos sejam consistentes, manuteníveis e de alta qualidade.
 
-### Princípios Fundamentais
+---
 
-- **Comentários úteis e objetivos**: Comentários devem explicar o *porquê*, não o *como* (que deve estar claro no código).
-- **Consistência com os padrões do projeto**: Siga convenções já adotadas, como nomes, estrutura de pastas e formatação.
-- **Nomes claros e significativos**: Use nomes descritivos que expressem a intenção. Evite abreviações confusas.
-- **Funções pequenas**: Cada função deve executar apenas uma tarefa.
-- **Evite repetição e seguir o padrão DRY (Don't Repeat Yourself)**: Centralize lógica comum em funções reutilizáveis e evite duplicações.
-- **Tratamento de erros adequado**: Trate exceções de forma clara. Evite blocos `try/catch` vazios ou sem logs úteis.
+## ✨ Código Limpo (Clean Code)
 
+Um código limpo pode ser lido e aprimorado por qualquer desenvolvedor(a).
 
-> **Dica**: Leia o código como se fosse um texto. Se for difícil de explicar, provavelmente precisa ser simplificado.
+- **Nomes Claros e Significativos:** Variáveis, funções e classes devem expressar sua intenção. Evite abreviações e nomes genéricos.
+- **Funções Pequenas e Focadas:** Cada função deve fazer apenas uma coisa e fazê-la bem.
+- **DRY (Don't Repeat Yourself):** Centralize lógicas comuns em funções reutilizáveis para evitar duplicação.
+- **Comentários Úteis:** Comente o **porquê** de uma implementação complexa, não o *como*. O código deve autoexplicar o *como*.
+- **Tratamento de Erros:** Exceções devem ser tratadas de forma explícita e informativa. Evite blocos `try/catch` vazios.
+- **Consistência:** Siga sempre as convenções de formatação e arquitetura já estabelecidas no projeto.
 
+> **Dica de Ouro:** Leia seu código em voz alta. Se for difícil de explicar, ele provavelmente precisa ser simplificado.
 
-## 🌿 Controle de Versão
+---
 
-### Commits Padronizados (Conventional Commits)
+## 🌿 Controle de Versão com Git
 
-Adote o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/) para manter o histórico claro e organizado.
+Um histórico de commits bem organizado é fundamental para a saúde do projeto.
 
-**Prefixos comuns:**
+### Padrão de Commits (Conventional Commits)
+Adotamos o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/) para criar um histórico explícito e rastreável.
 
-- `feat`: Nova funcionalidade
-- `fix`: Correção de bug
-- `docs`: Alterações na documentação
-- `style`: Formatação (espaços, vírgulas, identação)
-- `refactor`: Refatoração (sem alterar comportamento)
-- `test`: Adição ou alteração de testes
-- `chore`: Tarefas internas (build, configs, etc.)
+**Formato:** `prefixo: mensagem em modo imperativo`
 
-**Boas práticas:**
-
-- Commits pequenos e frequentes
-- Mensagens claras, no tempo presente e modo imperativo  
-  Ex: `adiciona autenticação por token`
+**Prefixos mais comuns:**
+- `feat`: Adiciona uma nova funcionalidade.
+- `fix`: Corrige um bug.
+- `docs`: Altera a documentação.
+- `style`: Ajustes de formatação (espaços, vírgulas, etc.), sem impacto no código.
+- `refactor`: Refatoração de código que não altera o comportamento final.
+- `test`: Adiciona ou modifica testes.
+- `chore`: Tarefas de build, configurações ou outras tarefas internas.
 
 **Exemplos:**
 
 | ✅ Bom | ❌ Ruim |
-|--------|--------|
-| `feat: adiciona função de login` | `adicionei umas coisas` |
-| `fix: corrige bug na validação` | `correção` |
-| `refactor: refatora módulo de pagamento` | `mudanças` |
+| :--- | :--- |
+| `feat: adiciona autenticação via token JWT` | `login novo` |
+| `fix: corrige cálculo de impostos no checkout` | `bugfix` |
+| `refactor: simplifica módulo de pagamentos` | `mudanças no código` |
+
+### Fluxo de Trabalho (Git Flow)
+1.  **Sincronize:** Atualize sua branch principal (`main` ou `develop`) antes de iniciar.
+    - `git checkout main && git pull`
+2.  **Ramifique:** Crie uma nova branch para cada tarefa.
+    - `git checkout -b feat/nome-da-funcionalidade`
+3.  **Desenvolva:** Faça commits pequenos e frequentes com mensagens claras.
+4.  **Teste:** Garanta que suas alterações não quebraram nada e que tudo funciona como esperado.
+5.  **Envie:** Suba sua branch e abra um Pull Request (PR) para revisão de código.
 
 ---
-
-### Fluxo de Trabalho
-
-1. Atualize sua branch antes de começar
-2. Crie uma branch por tarefa
-3. Teste antes de abrir PR
-4. Solicite revisão de código
-
 
 ## 📝 Documentação
 
-### Código Autodocumentado
+Código e projetos bem documentados aceleram o desenvolvimento e facilitam a manutenção.
 
-- Use nomes descritivos
-- Extraia código complexo para funções com nomes claros
-- Adicione comentários apenas quando necessário
+- **Código Autodocumentado:** Priorize nomes descritivos e funções pequenas que tornem o código intuitivo.
+- **Comentários Estratégicos:** Use comentários apenas para explicar trechos complexos ou decisões de arquitetura.
+- **README Completo:** Todo projeto deve ter um `README.md` com:
+  - Instruções claras de instalação e execução.
+  - Exemplos de uso.
+  - Requisitos e dependências.
+  - Como contribuir.
 
-### Documentação de Projeto
-
-- README com instruções claras
-- Exemplos de uso
-- Requisitos e dependências
-- Como contribuir 
----
-
->  **Lembre-se**: Boas práticas evoluem com o tempo. O importante é estar aberto a melhorias contínuas.
+> **Lembre-se:** Boas práticas evoluem com o tempo. O importante é manter a mente aberta para a melhoria contínua.
