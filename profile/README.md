@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://s3.amazonaws.com/imagens-ecommerce.autocom3bucket.com.br/0000000001/f56807c4-2a94-4bd6-88c6-82144eb99006.png" alt="Logo da Autocom3" width="450"/>
+  <img src="https://s3.amazonaws.com/imagens-ecommerce.autocom3bucket.com.br/0000000001/968f50d6-a3cb-4eff-beb0-1c9f5ee66977.png" alt="Logo da Autocom3" width="450"/>
 </div>
 
 <br>
